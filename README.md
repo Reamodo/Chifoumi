@@ -1,2 +1,2 @@
 # chifoumi
-Jeux Pierre/Feuille/Ciseau
+Jeux Pierre/Feuille/Ciseau en JAVASCRIPT
