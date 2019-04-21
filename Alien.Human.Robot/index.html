@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robot Human Alien Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,500,700" rel="stylesheet"></head>
+<body>
+    <header>
+        <h1>Robot . Human . Alien</h1>
+    </header>
+<!--
+    Robot > Alien
+    Alien > Human
+    Human > Robot
+-->
+    <div class='score-board'>
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">I.A.</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>LET'S THE BATTLE BEGIIIIIIN !</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="a">
+            <img src="images/alien128.png" alt="">
+        </div>
+        <div class="choice" id="h">
+            <img src="images/man.png" alt="">
+        </div>
+        <div class="choice" id="r">
+            <img src="images/robot128.png" alt="">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move !</p>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
